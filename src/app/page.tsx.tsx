@@ -337,13 +337,15 @@ export default function Home() {
           </div>
           <div className="text-slate-500 text-sm">
             © 2026 Pro Meta Ads. All rights reserved.
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-} 
-                placeholder="What's your current ad spend? What are your goals?" 
+          <textarea
+  name="message"
+  rows={4}
+  value={formData.message}
+  onChange={handleChange}
+  className="w-full px-6 py-4 rounded-xl bg-slate-800 border border-slate-700 resize-none text-white focus:outline-none focus:border-cyan-500 transition-colors"
+  placeholder="What's your current goal or biggest challenge with Meta ads?"
+  required
+/>
                 rows={4} 
                 className="w-full px-6 py-4 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-colors resize-none text-white placeholder-zinc-600" 
                 required 
