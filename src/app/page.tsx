@@ -341,9 +341,9 @@ export default function Home() {
   name="message"
   rows={4}
   value={formData.message}
-  onChange={handleChange}
-  className="w-full px-6 py-4 rounded-xl bg-slate-800 border border-slate-700 resize-none text-white focus:outline-none focus:border-cyan-500 transition-colors"
-  placeholder="What's your current goal or biggest challenge with Meta ads?"
+);
+}
+placeholder="What's your current ad spend? What are your goals?"
   required
 />
                 rows={4} 
