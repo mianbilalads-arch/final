@@ -45,6 +45,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white">
+
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/90 backdrop-blur-xl border-b border-slate-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -67,24 +68,24 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-cyan-950/30 via-slate-900 to-purple-950/30" />
         <div className="absolute top-32 left-20 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl" />
         <div className="absolute bottom-32 right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
-        
+
         <div className="max-w-4xl mx-auto relative text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-sm font-medium mb-8">
             <span className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
             Meta Certified Partner Agency
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Stop Wasting Ad Spend.
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
               Start Scaling Revenue.
             </span>
           </h1>
-          
+
           <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-            We manage Meta ad campaigns for e-commerce brands and SaaS companies that are ready to scale. Get more conversions at lower costs — or we don't get paid.
+            We manage Meta ad campaigns for e-commerce brands and local businesses that are ready to scale. Get more conversions at lower costs — or we don't get paid.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact" className="px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-slate-900 rounded-xl font-semibold transition-all hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25">
               Get Your Free Audit
@@ -93,18 +94,24 @@ export default function Home() {
               See Our Results
             </a>
           </div>
-          
+
           <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-slate-500 text-sm">
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
               No Long-term Contract
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
               Cancel Anytime
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
               14-Day Free Trial
             </div>
           </div>
@@ -120,44 +127,44 @@ export default function Home() {
               End-to-end Meta advertising management that delivers real business results
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 title: "Campaign Management",
                 desc: "Full setup, monitoring, and optimization of your Facebook & Instagram ad campaigns. We handle everything from audience research to ad creative.",
                 icon: "🎯",
-                features: ["A/B Testing", "Daily Optimization", "Budget Scaling"]
+                features: ["A/B Testing", "Daily Optimization", "Budget Scaling"],
               },
               {
                 title: "Audience Targeting",
                 desc: "We build hyper-targeted audiences using lookalike audiences, custom audiences, and advanced demographic targeting to reach your ideal customers.",
                 icon: "👥",
-                features: ["Lookalike Audiences", "Custom Audiences", "Retargeting"]
+                features: ["Lookalike Audiences", "Custom Audiences", "Retargeting"],
               },
               {
                 title: "Ad Creative Strategy",
                 desc: "Compelling ad creatives that stop the scroll and drive action. We test multiple angles to find what converts for your specific audience.",
                 icon: "✨",
-                features: ["Copy & Creative", "Video Ads", "Carousel Ads"]
+                features: ["Copy & Creative", "Video Ads", "Carousel Ads"],
               },
               {
                 title: "Analytics & Reporting",
                 desc: "Detailed performance reports with actionable insights. Know exactly where every dollar is going and what returns you're getting.",
                 icon: "📊",
-                features: ["Weekly Reports", "ROI Tracking", "Custom Dashboards"]
+                features: ["Weekly Reports", "ROI Tracking", "Custom Dashboards"],
               },
               {
                 title: "Conversion Optimization",
                 desc: "We don't just drive traffic — we optimize for actual conversions. Landing pages, retargeting, and funnel optimization included.",
                 icon: "🎪",
-                features: ["Landing Pages", "A/B Testing", "Funnel Setup"]
+                features: ["Landing Pages", "A/B Testing", "Funnel Setup"],
               },
               {
                 title: "Scaling Strategy",
                 desc: "When campaigns perform, we scale systematically to maximize your ROI without burning out your audience or budget.",
                 icon: "🚀",
-                features: ["Vertical Scaling", "Horizontal Scaling", "Budget Management"]
+                features: ["Vertical Scaling", "Horizontal Scaling", "Budget Management"],
               },
             ].map((service, i) => (
               <div key={i} className="p-6 rounded-2xl bg-slate-800/50 border border-slate-700 hover:border-cyan-500/50 transition-colors group">
@@ -187,7 +194,7 @@ export default function Home() {
               A proven 4-step process to scale your Meta ad campaigns
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { step: "01", title: "Discovery", desc: "We analyze your current ads, website, and competitors to identify opportunities." },
@@ -214,7 +221,7 @@ export default function Home() {
               Real numbers from real campaigns we've managed
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { metric: "$2.4M", label: "Ad Spend Managed" },
@@ -240,7 +247,7 @@ export default function Home() {
               Get a free audit and campaign strategy. No commitment required.
             </p>
           </div>
-          
+
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
@@ -268,7 +275,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">Website URL</label>
@@ -298,7 +305,7 @@ export default function Home() {
                 </select>
               </div>
             </div>
-            
+
             <div>
               <label className="block text-sm font-medium text-slate-300 mb-2">Tell Us About Your Goals</label>
               <textarea
@@ -310,7 +317,7 @@ export default function Home() {
                 placeholder="What are you currently spending on ads? What results are you hoping to achieve?"
               />
             </div>
-            
+
             <button
               type="submit"
               disabled={status === "sending"}
@@ -318,7 +325,7 @@ export default function Home() {
             >
               {status === "sending" ? "Sending..." : status === "success" ? "Message Sent!" : status === "error" ? "Try Again" : "Get Your Free Audit"}
             </button>
-            
+
             {status === "success" && (
               <p className="text-green-400 text-center text-sm">Thanks! We'll be in touch within 24 hours.</p>
             )}
@@ -337,45 +344,10 @@ export default function Home() {
           </div>
           <div className="text-slate-500 text-sm">
             © 2026 Pro Meta Ads. All rights reserved.
-          <textarea
-  name="message"
-  rows={4}
-  value={formData.message}
-);
-}
-placeholder="What's your current ad spend? What are your goals?"
-  required
-/>
-                rows={4} 
-                className="w-full px-6 py-4 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-colors resize-none text-white placeholder-zinc-600" 
-                required 
-              />
-            </div>
-            
-            <button 
-              type="submit" 
-              className="w-full py-5 bg-blue-600 hover:bg-blue-700 rounded-xl font-semibold text-lg transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-blue-500/25"
-            >
-              Request Free Audit
-            </button>
-            
-            <p className="text-center text-zinc-500 text-sm">
-              We typically respond within 24 hours. No commitment required.
-            </p>
-          </form>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-12 px-6 border-t border-zinc-800">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div>
-            <div className="text-xl font-bold mb-2">Pro Meta Ads</div>
-            <div className="text-zinc-500 text-sm">Meta Certified Partner Agency</div>
           </div>
-          <div className="text-zinc-500 text-sm">&copy; 2026 Pro Meta Ads. All rights reserved.</div>
         </div>
       </footer>
+
     </div>
   );
 }
